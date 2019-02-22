@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Checkers</title>
+  <link rel="icon" href="/favicon.png">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+  <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <form>
+    Create/join a game room named:<br>
+    <input type="text" id="roomName">
+    <button onclick="getRoom(event)">Submit</button>
+  </form>
+  <h1 id="gameName"></h1>
+  <p id="statusMessage"></p>
+  <table id="board"></table>
+</body>
+
+</html>
+<script src="javascript.js"></script>

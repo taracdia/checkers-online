@@ -1,0 +1,35 @@
+.square {
+  height: 40px;
+  width: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 26px 26px;
+}
+
+.dark {
+  background-color: #caa533;
+}
+
+.light {
+  background-color: #e7d688;
+}
+
+.black {
+  background-image: url("black.png");
+}
+
+.red {
+  background-image: url("red.png");
+}
+
+.blackKing {
+  background-image: url("black-king.png");
+}
+
+.redKing {
+  background-image: url("red-king.png");
+}
+
+#selected {
+  background-color: olivedrab;
+}
